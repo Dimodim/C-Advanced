@@ -11,24 +11,27 @@ namespace Streams
             
             using (StreamReader streamReader = new StreamReader(path))
             {
-                int counter = 0;
-                while (true)
+                using (StreamWriter streamWriter = new StreamWriter("result.txt"))
                 {
-                  
-                    string test = streamReader.ReadLine();
-                    if (test == null)
+                    int counter = 0;
+                    while (true)
                     {
-                        break;
+
+                        string test = streamReader.ReadLine();
+                        if (test == null)
+                        {
+                            break;
+                        }
+
+                        if (counter % 2 == 0)
+                        {
+
+                            streamWriter.WriteLine(Reversed(Replaced(test)));
+                        }
+
+
+                        counter++;
                     }
-                    
-                    if (counter % 2 == 0)
-                    {
-                        
-                        Console.WriteLine(Reversed(Replaced(test)));
-                    }
-                    
-                        
-                    counter++;
                 }
             }
         }

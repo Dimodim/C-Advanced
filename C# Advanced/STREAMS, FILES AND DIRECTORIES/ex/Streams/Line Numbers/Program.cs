@@ -14,7 +14,7 @@ namespace Line_Numbers
             {
                 int charCount = CharecterCount(curentLine);
                 int punctuationCount = PunctuationCount(curentLine);
-                Console.WriteLine($"Line{lineCounter}: {curentLine} ({charCount})({punctuationCount})");
+                File.AppendAllText("output.txt",$"Line{lineCounter}: {curentLine} ({charCount})({punctuationCount}){Environment.NewLine}");
             }
         }
 
