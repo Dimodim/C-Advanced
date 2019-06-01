@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Streams", "Streams\Streams.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Line Numbers", "Line Numbers\Line Numbers.csproj", "{A5604A83-F115-43CD-82F7-43AAD9DD706E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Count", "Word Count\Word Count.csproj", "{C4AC73F2-0976-4465-94A9-94274E054D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Word Count", "Word Count\Word Count.csproj", "{C4AC73F2-0976-4465-94A9-94274E054D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Copy Binary File", "Copy Binary File\Copy Binary File.csproj", "{763EC24D-24F7-4E51-9FC0-DDB7F5FEAC1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Copy Binary File", "Copy Binary File\Copy Binary File.csproj", "{763EC24D-24F7-4E51-9FC0-DDB7F5FEAC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory Traversal", "Directory Traversal\Directory Traversal.csproj", "{5EFE8E6E-2D86-4A5F-8E96-A5E35AE49445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zip and Extract", "Zip and Extract\Zip and Extract.csproj", "{E45D0B60-A175-4478-9CD7-95CBDE5AEFC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{763EC24D-24F7-4E51-9FC0-DDB7F5FEAC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763EC24D-24F7-4E51-9FC0-DDB7F5FEAC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763EC24D-24F7-4E51-9FC0-DDB7F5FEAC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EFE8E6E-2D86-4A5F-8E96-A5E35AE49445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFE8E6E-2D86-4A5F-8E96-A5E35AE49445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFE8E6E-2D86-4A5F-8E96-A5E35AE49445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFE8E6E-2D86-4A5F-8E96-A5E35AE49445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45D0B60-A175-4478-9CD7-95CBDE5AEFC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45D0B60-A175-4478-9CD7-95CBDE5AEFC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45D0B60-A175-4478-9CD7-95CBDE5AEFC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45D0B60-A175-4478-9CD7-95CBDE5AEFC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
